@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" 
+    xmlns:gap="http://phonegap.com/ns/1.0"
+	id="com.phonegap.getting.started" version="1.0.0">
+
+	<name>Sail PhoneGap Shell</name>
+
+	<description>
+		An Android PhoneGap shell for sail.js-based apps.
+	</description>
+
+	<author href="http://github.com/educoder">
+		Educoder
+	</author>
+
+	<gap:platforms>
+		<gap:platform name="android" minVersion="3.1" />
+	</gap:platforms>
+
+	<icon src="icon.png" gap:role="default" />
+</widget>
