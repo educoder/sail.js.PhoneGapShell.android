@@ -52,5 +52,11 @@ public class PhoneGapShell extends DroidGap
     		startActivity(sailPrefsActivity);
     	}
     }
+    
+    public void reload(MenuItem item) {
+    	Log.d("PhoneGapShell", "Deleting cache...");
+    	this.getCacheDir().delete();
+    	this.loadUrl(this.appView.getOriginalUrl());
+    }
 }
 
