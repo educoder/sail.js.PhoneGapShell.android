@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">EvoRoom2</string>
     <string name="sail_settings">Sail Settings</string>
+    <string name="reload">Reload</string>
 </resources>
