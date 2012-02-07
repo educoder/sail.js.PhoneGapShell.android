@@ -1,6 +1,5 @@
 package org.educoder.sail;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -10,7 +9,6 @@ import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.preference.PreferenceManager;
 
 import com.phonegap.DroidGap;
 
